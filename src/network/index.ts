@@ -208,3 +208,7 @@ export type {
   EndpointHealthResult,
   EndpointRegistryConfig,
 } from "./endpointRegistry";
+
+// ─── Request Deduplication (#76) ─────────────────────────────────────────────
+export { createRequestDeduplicator } from "./requestDedup";
+export type { DedupConfig, RequestDeduplicator } from "./requestDedup";
