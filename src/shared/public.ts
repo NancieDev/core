@@ -33,3 +33,17 @@ export {
   DEFAULT_MAINNET_SAFETY_THRESHOLD_XLM,
   MAINNET_NETWORK_PASSPHRASE,
 } from "./mainnetSafety";
+
+export {
+  emitDeprecationWarning,
+  deprecate,
+  setDeprecationPolicy,
+  getDeprecationPolicy,
+  formatDeprecationMessage,
+  getEmittedDeprecationWarnings,
+  clearDeprecationWarnings,
+} from "./deprecation";
+export type {
+  DeprecationWarningOptions,
+  DeprecationPolicyOptions,
+} from "./deprecation";

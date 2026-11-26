@@ -806,6 +806,7 @@ The documentation now includes task-oriented, executable workflows and a contrib
 | [`docs/workflows.md`](docs/workflows.md) | Complete transaction lifecycle, wallet signing, multisignature signing, Soroban calls, trustline approval, cost planning, refunds, and recovery patterns |
 | [`docs/architecture.md`](docs/architecture.md) | Module boundaries, data flow, result/error conventions, extension guidance, and migration from direct Stellar SDK usage |
 | [`docs/adr/`](docs/adr/README.md) | Architecture Decision Records — the problem, options, decision, and consequences behind major design choices (no-throw results, stateless client, wallet adapters, error classification, streaming transport, module structure) |
+| [`docs/release-and-deprecation-policy.md`](docs/release-and-deprecation-policy.md) | Versioning categories (major/minor/patch), deprecation lifecycles, runtime and peer dependency support policies |
 
 Both guides use the current exported API shape and keep policy, construction, signing, submission, and recovery concerns separate.
 

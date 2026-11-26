@@ -2187,3 +2187,18 @@ export type {
   WebSocketTransactionFeedOptions,
   WebSocketTransactionFeedHandle,
 } from "./transaction/transactionDashboard";
+
+// ─── Deprecation policy utilities (#69) ───────────────────────────────────────
+export {
+  emitDeprecationWarning,
+  deprecate,
+  setDeprecationPolicy,
+  getDeprecationPolicy,
+  formatDeprecationMessage,
+  getEmittedDeprecationWarnings,
+  clearDeprecationWarnings,
+} from "./shared/deprecation";
+export type {
+  DeprecationWarningOptions,
+  DeprecationPolicyOptions,
+} from "./shared/deprecation";
