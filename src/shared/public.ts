@@ -33,3 +33,13 @@ export {
   DEFAULT_MAINNET_SAFETY_THRESHOLD_XLM,
   MAINNET_NETWORK_PASSPHRASE,
 } from "./mainnetSafety";
+
+export {
+  captureBenchmarkEnvironment,
+  evaluateBundleBudget,
+  DEFAULT_BUNDLE_BUDGETS,
+} from "./benchmarkEnvironment";
+export type {
+  BenchmarkEnvironmentDetails,
+  BundleBudgetDefinition,
+} from "./benchmarkEnvironment";

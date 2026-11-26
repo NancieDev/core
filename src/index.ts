@@ -2187,3 +2187,14 @@ export type {
   WebSocketTransactionFeedOptions,
   WebSocketTransactionFeedHandle,
 } from "./transaction/transactionDashboard";
+
+// ─── Performance and bundle measurement (#70) ─────────────────────────────────
+export {
+  captureBenchmarkEnvironment,
+  evaluateBundleBudget,
+  DEFAULT_BUNDLE_BUDGETS,
+} from "./shared/benchmarkEnvironment";
+export type {
+  BenchmarkEnvironmentDetails,
+  BundleBudgetDefinition,
+} from "./shared/benchmarkEnvironment";
